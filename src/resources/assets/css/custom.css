@@ -1,0 +1,318 @@
+#editor-container {
+    height: 375px;
+}
+
+table#datatables thead > tr > th {
+    border-bottom: 0
+}
+
+@font-face {
+    font-family: Prompt;
+    src: url("/fonts/Prompt-Regular.ttf");
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+@media (min-width: 992px) {
+    .modal-width-size {
+        max-width: 80%;
+    }
+
+    .modal-width-size-spare {
+        max-width: 70%;
+        margin-top: 50px;
+    }
+
+    .modal-width-size-two {
+        max-width: 70%;
+        margin-top: 50px;
+    }
+
+    .brandFull {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-width-size {
+        max-width: 90%;
+    }
+
+    .modal-width-size-two {
+        max-width: 70%;
+        margin-top: 50px;
+    }
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+        font-size: 12pt;
+        font-weight: 400;
+    }
+
+    h3 {
+        font-size: 22pt;
+    }
+
+    strong {
+        font-weight: bolder
+    }
+
+    #stw-print,
+    #stw-print * {
+        visibility: visible;
+    }
+
+    .pageBreak {
+        page-break-before: always;
+    }
+}
+
+select[readonly].select2-hidden-accessible + .select2-container {
+    pointer-events: none;
+    touch-action: none;
+}
+
+select[readonly].select2-hidden-accessible + .select2-container .select2-selection {
+    background: #eee;
+    box-shadow: none;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 34px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 32px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 32px;
+}
+
+.select2-container--default .select2-selection--multiple{
+    height: 70px;
+}
+
+@media (min-width: 350px) {
+    .foodImage {
+        height: 100px;
+    }
+    .foodImageNew {
+        height: 130px;
+    }
+    .serveImage {
+        height: 100px;
+    }
+    .stwHaveTable {
+        height: 130px;
+    }
+    .stwFontSizeInBox {
+        font-size: 4vw;
+        margin-top: 5px;
+    }
+    .stwNotHaveTable {
+        border-style:dashed;
+        height: 130px;
+    }
+    .stw-card-h {
+        height: 400px;
+        overflow-y: scroll;
+    }
+    .dashboardImage {
+        height: 320px;
+    }
+}
+
+@media (min-width: 576px) {
+    .foodImage {
+        height: 120px;
+    }
+    .foodImageNew {
+        height: 130px;
+    }
+    .serveImage {
+        height: 120px;
+    }
+    .stwHaveTable {
+        height: 150px;
+    }
+    .stwFontSizeInBox {
+        font-size: 4vw;
+        margin-top: 5px;
+    }
+    .stwNotHaveTable {
+        border-style:dashed;
+        height: 150px;
+    }
+    .stw-card-h {
+        height: 400px;
+        overflow-y: scroll;
+    }
+    .dashboardImage {
+        height: 270px;
+    }
+}
+
+@media (min-width: 768px) {
+    .foodImage {
+        height: 180px;
+    }
+    .foodImageNew {
+        height: 110px;
+    }
+    .serveImage {
+        height: 180px;
+    }
+    .stwHaveTable {
+        height: 160px;
+    }
+    .stwFontSizeInBox {
+        font-size: 3vw;
+        margin-top: 10px;
+    }
+    .stwNotHaveTable {
+        border-style:dashed;
+        height: 160px;
+    }
+    .stw-card-h {
+        height: 250px;
+        overflow-y: scroll;
+    }
+    .dashboardImage {
+        height: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .foodImage {
+        height: 200px;
+    }
+    .foodImageNew {
+        height: 140px;
+    }
+    .serveImage {
+        height: 200px;
+    }
+    .stwHaveTable {
+        height: 140px;
+    }
+    .stwFontSizeInBox {
+        font-size: 2vw;
+        margin-top: 5px;
+    }
+    .stwNotHaveTable {
+        border-style:dashed;
+        height: 140px;
+    }
+    .stw-card-h {
+        height: 300px;
+        overflow-y: scroll;
+    }
+    .dashboardImage {
+        height: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .foodImage {
+        height: 220px;
+    }
+    .foodImageNew {
+        height: 160px;
+    }
+    .serveImage {
+        height: 220px;
+    }
+    .stwHaveTable {
+        height: 160px;
+    }
+    .stwFontSizeInBox {
+        font-size: 2vw;
+        margin-top: 10px;
+    }
+    .stwNotHaveTable {
+        border-style:dashed;
+        height: 160px;
+    }
+    .stw-card-h {
+        height: 330px;
+        overflow-y: scroll;
+    }
+    .dashboardImage {
+        height: 150px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .foodImage {
+        height: 250px;
+    }
+    .foodImageNew {
+        height: 190px;
+    }
+    .serveImage {
+        height: 250px;
+    }
+    .stwHaveTable {
+        height: 190px;
+    }
+    .stwFontSizeInBox {
+        font-size: 2vw;
+        margin-top: 25px;
+    }
+    .stwNotHaveTable {
+        border-style:dashed;
+        height: 190px;
+    }
+    .stw-card-h {
+        height: 360px;
+        overflow-y: scroll;
+    }
+    .dashboardImage {
+        height: 180px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .foodImage {
+        height: 300px;
+    }
+    .foodImageNew {
+        height: 220px;
+    }
+    .serveImage {
+        height: 300px;
+    }
+    .stwHaveTable {
+        height: 230px;
+    }
+    .stwFontSizeInBox {
+        font-size: 2vw;
+        margin-top: 30px;
+    }
+    .stwNotHaveTable {
+        border-style:dashed;
+        height: 230px;
+    }
+    .stw-card-h {
+        height: 400px;
+        overflow-y: scroll;
+    }
+    .dashboardImage {
+        height: 200px;
+    }
+}
+
+.stwCenterInBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
